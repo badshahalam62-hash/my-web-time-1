@@ -1,0 +1,4 @@
+security-demo/
+ ├── index.html      (Login)
+ ├── dashboard.html  (Dashboard)
+ └── app.js          (Logic)
