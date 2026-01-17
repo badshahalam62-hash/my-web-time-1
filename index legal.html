@@ -1,0 +1,13 @@
+<script>
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(pos => {
+        document.getElementById("loc").innerText =
+          "Lat: " + pos.coords.latitude + ", Lng: " + pos.coords.longitude;
+        log("Location permission granted");
+      });
+    } else {
+      alert("Not supported");
+    }
+  }
+</script>
