@@ -1,0 +1,6 @@
+POST /api/activity
+{
+  "user":"demo",
+  "event":"Location allowed",
+  "time":"2026-01-13"
+}
