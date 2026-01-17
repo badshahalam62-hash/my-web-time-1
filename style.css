@@ -1,0 +1,23 @@
+body><div class="card"><h2>🔐 Privacy Protection Demo</h2><input type="text" id="name" placeholder="Your Name"><input type="text" id="mobile" placeholder="Mobile Number"><button onclick="startMonitoring()">Allow & Start</button><div class="log" id="log"></div></div>/style></head <body><h2>📊 Security Dashboard</h2><div class="card"><p>User: <span id="u"></span></p><button onclick="getLocation()">📍 Allow Location</button><p id="loc"></p></div><div class="card"><h4>Activity Log</h4><ul id="log"></ul></div><script><style>body {
+  background: #020617;
+  color: white;
+  font-family: Arial;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #38bdf8;
+}
+
+< document.getElementById("u").innerText=localStorage.getItem("user");
+!DOCTYPE html><html><head><title>My Website</title><link rel="stylesheet" href="style.css"></head><body><h1>Hello Website</h1><button onclick="showTime()">Time</button><script src="script.js"></script></body></html>
