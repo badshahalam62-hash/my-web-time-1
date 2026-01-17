@@ -1,0 +1,5 @@
+Android App
+  ↓ HTTPS (JSON)
+Backend API (Node / Python)
+  ↓
+Website Dashboard
